@@ -2824,7 +2824,7 @@
     (property "Reference" "RST1" (id 0) (at 194.31 20.32 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
-    (property "Value" "" (id 1) (at 194.31 24.13 90)
+    (property "Value" "1825910-6" (id 1) (at 194.31 24.13 90)
       (effects (font (size 1.524 1.524)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 185.42 16.51 0)
