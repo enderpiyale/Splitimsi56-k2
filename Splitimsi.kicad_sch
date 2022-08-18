@@ -3557,7 +3557,7 @@
       (reference "Knob1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_EC11")
     )
     (path "/b39d7b4a-582f-449b-82fa-4a80df318fb1"
-      (reference "RST1") (unit 1) (value "1825910-6") (footprint "Keebio-Parts:SW_SPST_3x3")
+      (reference "RST1") (unit 1) (value "1825910-6") (footprint "")
     )
     (path "/200aa83c-0260-4790-a345-ddeba1e13353"
       (reference "SW1") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
