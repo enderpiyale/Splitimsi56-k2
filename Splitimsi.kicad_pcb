@@ -3556,7 +3556,7 @@
     (property "Sheetname" "")
     (path "/a62bed7d-868a-43a1-b284-68a3824f2abe")
     (attr through_hole)
-    (fp_text reference "U2" (at 0 14.2 -90) (layer "Dwgs.User")
+    (fp_text reference "U2" (at 0.034304 4.602522 -90) (layer "Dwgs.User")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 959515dd-32a5-4c45-9397-74bbfcecd51e)
     )
@@ -4773,6 +4773,9 @@
   (gr_line (start 138.43 116.84) (end 138.43 116.84) (layer "Edge.Cuts") (width 0.15) (tstamp e6c527f0-095b-4282-abfa-4a716c6205f5))
   (gr_line (start 20.32 97.79) (end 20.193 16.967909) (layer "Edge.Cuts") (width 0.15) (tstamp f134602f-4ed8-4816-9da6-f653aef9b4b3))
   (gr_line (start 20.32 116.967) (end 20.32 97.79) (layer "Edge.Cuts") (width 0.15) (tstamp f8db0522-2b83-422e-8ab7-3bff55b3e559))
+  (gr_text "Splitimsi56_K2\nPCBv1.0 Designed by enderp" (at 127.413902 34.230795 90) (layer "F.SilkS") (tstamp bc9a88eb-7ad1-4d7a-9610-a5093eafc3bd)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
 
   (segment (start 117.162291 56.424596) (end 117.145481 56.441406) (width 0.254) (layer "F.Cu") (net 1) (tstamp 4ee56eaa-82d2-40a0-8d6c-b649233d6ceb))
   (segment (start 117.145481 56.441406) (end 115.53879 56.441406) (width 0.254) (layer "F.Cu") (net 1) (tstamp 8f7b23f8-c2d3-406f-8363-5f8d9ba30a31))
