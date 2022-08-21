@@ -383,7 +383,9 @@
         "name": "PowerLines",
         "nets": [
           "+5V",
-          "GND"
+          "GND",
+          "Net-(S1-Pad2)_1",
+          "Net-(SW1-Pad2)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
