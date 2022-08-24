@@ -2329,7 +2329,7 @@
 
   (footprint "aio3-misc:Generic-Mounthole" (layer "F.Cu")
     (tedit 5C91B17B) (tstamp 6bf05d19-ba3e-4ba6-8a6f-4e0bc45ea3b2)
-    (at 157.992847 52.311959)
+    (at 157.611191 58.826111)
     (property "Sheetfile" "Splitimsi.kicad_sch")
     (property "Sheetname" "")
     (path "/21a401ae-fc65-4633-8b99-96532dcf52fe")
@@ -2347,7 +2347,7 @@
 
   (footprint "aio3-misc:Generic-Mounthole" (layer "F.Cu")
     (tedit 5C91B17B) (tstamp 7c04618d-9115-4179-b234-a8faf854ea92)
-    (at 162.492847 52.311959)
+    (at 162.111191 58.826111)
     (property "Sheetfile" "Splitimsi.kicad_sch")
     (property "Sheetname" "")
     (path "/476f9437-4a89-4d76-af91-e2a134b95e6f")
@@ -2365,7 +2365,7 @@
 
   (footprint "aio3-misc:Generic-Mounthole" (layer "F.Cu")
     (tedit 5C91B17B) (tstamp 88668202-3f0b-4d07-84d4-dcd790f57272)
-    (at 166.992847 47.811959)
+    (at 22.447645 19.216391)
     (property "Sheetfile" "Splitimsi.kicad_sch")
     (property "Sheetname" "")
     (path "/5e79d815-3e66-452c-bc9d-447f9c537736")
@@ -2681,7 +2681,7 @@
 
   (footprint "aio3-misc:Generic-Mounthole" (layer "F.Cu")
     (tedit 5C91B17B) (tstamp 970e0f64-111f-41e3-9f5a-fb0d0f6fa101)
-    (at 166.992847 52.311959)
+    (at 166.611191 58.826111)
     (property "Sheetfile" "Splitimsi.kicad_sch")
     (property "Sheetname" "")
     (path "/ebd09f57-f1eb-4035-9778-e725368edccc")
