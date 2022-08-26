@@ -3335,8 +3335,8 @@
     (property "Datasheet" "" (id 3) (at 191.77 20.066 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 1ced31fe-2f57-424d-8d67-7bfac5eeae7d))
-    (pin "" (uuid 1ced31fe-2f57-424d-8d67-7bfac5eeae7d))
+    (pin "" (uuid 1ced31fe-2f57-424d-8d67-7bfac5eeae7e))
+    (pin "" (uuid 1ced31fe-2f57-424d-8d67-7bfac5eeae7e))
     (pin "1" (uuid eb5ee013-302e-40e9-9d71-3d3bcfa46674))
     (pin "2" (uuid bca83724-6370-4365-831e-519f12b9ee76))
   )
@@ -4222,7 +4222,7 @@
       (reference "D1") (unit 1) (value "DIODE") (footprint "Keebio-Parts:D_SOD123")
     )
     (path "/029ead16-1b5d-4d69-b121-040580eb7903"
-      (reference "Dogo1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+      (reference "Dogo1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical")
     )
     (path "/5e79d815-3e66-452c-bc9d-447f9c537736"
       (reference "H1") (unit 1) (value "Hole") (footprint "aio3-misc:Generic-Mounthole")
