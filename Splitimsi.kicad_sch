@@ -6000,10 +6000,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8201ea44-660e-45eb-b333-d06ce55a88da)
   )
-  (wire (pts (xy 24.13 30.48) (xy 34.29 30.48))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 821af2ae-5563-445f-8e8e-32768e2c86b5)
-  )
   (wire (pts (xy 101.6 71.12) (xy 101.6 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8504bc50-f40b-40b6-8dc9-879745250797)
@@ -6275,6 +6271,10 @@
   (wire (pts (xy 73.66 22.86) (xy 73.66 46.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d061f9e4-2567-4fd9-8214-f282328090ae)
+  )
+  (wire (pts (xy 29.21 30.48) (xy 34.29 30.48))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d09b9b63-b7b3-47e7-a123-06f5f7a95232)
   )
   (wire (pts (xy 99.06 46.99) (xy 99.06 49.53))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -6653,7 +6653,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 93370e64-d19c-4e2a-9ff1-7fc37885bac5)
   )
-  (label "LedData" (at 24.13 30.48 180)
+  (label "LedData" (at 21.59 30.48 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 95155aed-17b9-4847-937d-f5371e645cc2)
   )
@@ -6824,10 +6824,10 @@
     (property "Reference" "Dogo1" (id 0) (at 191.77 82.5499 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Value" "" (id 1) (at 191.77 83.8199 0)
+    (property "Value" "Conn_01x04_Male" (id 1) (at 191.77 83.8199 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 190.5 85.09 0)
+    (property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_1x04_P2.00mm_Vertical" (id 2) (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 85.09 0)
@@ -6884,6 +6884,21 @@
     (pin "6" (uuid c7abff97-1868-47b6-9af5-30f0b35ef1d5))
     (pin "7" (uuid 04887749-ccfb-4cae-aa67-99d42105b645))
     (pin "8" (uuid 053c0223-a0f7-4923-8af6-64cb74672f79))
+  )
+
+  (symbol (lib_id "Device:R") (at 25.4 30.48 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 097e0edc-0bee-47b5-b180-d68199aa4ff8)
+    (property "Reference" "R1" (id 0) (at 25.4 33.02 90))
+    (property "Value" "" (id 1) (at 25.4 30.48 90))
+    (property "Footprint" "" (id 2) (at 25.4 32.258 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 25.4 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 17b65212-5089-4b10-8076-6ae933d78b8b))
+    (pin "2" (uuid 2e20faf4-7401-46d5-ae6b-fc5bbb32f6ff))
   )
 
   (symbol (lib_name "MX_RGB_2") (lib_id "KeyboardCustomSym:MX_RGB") (at 38.1 97.79 0) (unit 1)
@@ -7048,7 +7063,7 @@
   (symbol (lib_id "power:GND") (at 215.9 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2ce15560-87e2-4227-ac08-0adeae2f86f4)
-    (property "Reference" "#PWR014" (id 0) (at 215.9 50.8 0)
+    (property "Reference" "#PWR05" (id 0) (at 215.9 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 215.9 49.53 90))
@@ -7064,7 +7079,7 @@
   (symbol (lib_id "power:GND") (at 185.42 41.91 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 2d99b1fd-4676-4d86-a373-e48d6eb5908c)
-    (property "Reference" "#PWR012" (id 0) (at 191.77 41.91 0)
+    (property "Reference" "#PWR03" (id 0) (at 191.77 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 190.5 41.91 90))
@@ -7173,7 +7188,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 184.15 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 4058e830-cb43-4d30-9bb9-06a51898acd1)
-    (property "Reference" "#FLG0102" (id 0) (at 184.15 31.115 0)
+    (property "Reference" "#FLG02" (id 0) (at 184.15 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 184.1499 29.21 90)
@@ -7233,7 +7248,7 @@
   (symbol (lib_id "power:GND") (at 128.27 27.94 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 44b5dc72-4ec6-4fb2-b842-6217e1e756c0)
-    (property "Reference" "#PWR01" (id 0) (at 134.62 27.94 0)
+    (property "Reference" "#PWR02" (id 0) (at 134.62 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 132.036 29.7999 0)
@@ -7286,7 +7301,7 @@
   (symbol (lib_id "Device:R") (at 163.83 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 51436f05-58a2-480a-b19d-fa9db125d54d)
-    (property "Reference" "R1" (id 0) (at 161.29 81.28 0)
+    (property "Reference" "R2" (id 0) (at 161.29 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "4.7k" (id 1) (at 158.75 86.36 0)
@@ -7305,7 +7320,7 @@
   (symbol (lib_id "power:GND") (at 149.86 44.45 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 56f55bb6-4eed-416b-b118-9d46bea66843)
-    (property "Reference" "#PWR013" (id 0) (at 143.51 44.45 0)
+    (property "Reference" "#PWR04" (id 0) (at 143.51 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 146.05 44.4499 90)
@@ -7440,7 +7455,7 @@
   (symbol (lib_id "dk_Tactile-Switches:B3U-1000P") (at 201.93 44.45 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 71fa3c88-abdf-4868-92dd-da7a96a3466b)
-    (property "Reference" "S2" (id 0) (at 201.93 46.99 0)
+    (property "Reference" "S1" (id 0) (at 201.93 46.99 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "B3U-1000P" (id 1) (at 201.93 39.37 0)
@@ -7511,7 +7526,7 @@
   (symbol (lib_id "power:+5V") (at 175.26 92.71 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 75a25d47-44bc-464e-ade1-3dad59708189)
-    (property "Reference" "#PWR041" (id 0) (at 175.26 88.9 0)
+    (property "Reference" "#PWR010" (id 0) (at 175.26 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 175.26 100.33 90)
@@ -7579,7 +7594,7 @@
   (symbol (lib_id "power:GND") (at 128.27 52.07 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7b6a790a-b581-43b4-b3e8-b90411497bef)
-    (property "Reference" "#PWR017" (id 0) (at 134.62 52.07 0)
+    (property "Reference" "#PWR08" (id 0) (at 134.62 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 132.036 53.9299 0)
@@ -7622,7 +7637,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 151.13 33.02 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 90d63027-85ae-40ec-bf42-cad9b49b8942)
-    (property "Reference" "#FLG0101" (id 0) (at 151.13 31.115 0)
+    (property "Reference" "#FLG01" (id 0) (at 151.13 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 151.1299 29.21 90)
@@ -7706,7 +7721,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 160.02 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9eba5d0f-5c14-4f7a-816d-ad5683ef7504)
-    (property "Reference" "#FLG01" (id 0) (at 160.02 78.105 0)
+    (property "Reference" "#FLG03" (id 0) (at 160.02 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 162.56 78.7399 0)
@@ -7724,7 +7739,7 @@
   (symbol (lib_id "power:GND") (at 203.2 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a59bd763-2144-4f0b-809d-d637e0dfcdc4)
-    (property "Reference" "#PWR0101" (id 0) (at 203.2 31.75 0)
+    (property "Reference" "#PWR01" (id 0) (at 203.2 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 203.2 30.48 0))
@@ -7836,7 +7851,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 175.26 92.71 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c8f07988-6923-43c1-86bc-6009e69a36e7)
-    (property "Reference" "#FLG02" (id 0) (at 177.165 92.71 0)
+    (property "Reference" "#FLG04" (id 0) (at 177.165 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 179.07 92.7099 90)
@@ -7879,7 +7894,7 @@
   (symbol (lib_id "Device:R") (at 168.91 88.9 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cea9d9a0-7c08-4ba2-9da7-a22fb48e0ba4)
-    (property "Reference" "R2" (id 0) (at 167.64 83.82 0)
+    (property "Reference" "R3" (id 0) (at 167.64 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "4.7k" (id 1) (at 170.18 88.9 0)
@@ -7944,7 +7959,7 @@
   (symbol (lib_id "power:+5V") (at 185.42 46.99 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e53a1afb-1269-4ccc-9d39-72635457c7f7)
-    (property "Reference" "#PWR016" (id 0) (at 181.61 46.99 0)
+    (property "Reference" "#PWR07" (id 0) (at 181.61 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 187.96 46.99 90)
@@ -7962,7 +7977,7 @@
   (symbol (lib_id "power:GND") (at 149.86 46.99 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e6216877-0c92-4f6b-a438-f930d20ba9ba)
-    (property "Reference" "#PWR015" (id 0) (at 143.51 46.99 0)
+    (property "Reference" "#PWR06" (id 0) (at 143.51 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 146.05 46.9899 90)
@@ -8047,7 +8062,7 @@
   (symbol (lib_id "power:GND") (at 175.26 80.01 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f356a60e-7a8d-4e45-a402-0850260ff0ee)
-    (property "Reference" "#PWR028" (id 0) (at 175.26 73.66 0)
+    (property "Reference" "#PWR09" (id 0) (at 175.26 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 177.1199 76.244 0)
@@ -8158,47 +8173,47 @@
   )
 
   (symbol_instances
-    (path "/9eba5d0f-5c14-4f7a-816d-ad5683ef7504"
+    (path "/90d63027-85ae-40ec-bf42-cad9b49b8942"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/c8f07988-6923-43c1-86bc-6009e69a36e7"
+    (path "/4058e830-cb43-4d30-9bb9-06a51898acd1"
       (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/90d63027-85ae-40ec-bf42-cad9b49b8942"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/9eba5d0f-5c14-4f7a-816d-ad5683ef7504"
+      (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/4058e830-cb43-4d30-9bb9-06a51898acd1"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/44b5dc72-4ec6-4fb2-b842-6217e1e756c0"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2d99b1fd-4676-4d86-a373-e48d6eb5908c"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/56f55bb6-4eed-416b-b118-9d46bea66843"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/2ce15560-87e2-4227-ac08-0adeae2f86f4"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e6216877-0c92-4f6b-a438-f930d20ba9ba"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/e53a1afb-1269-4ccc-9d39-72635457c7f7"
-      (reference "#PWR016") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/7b6a790a-b581-43b4-b3e8-b90411497bef"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f356a60e-7a8d-4e45-a402-0850260ff0ee"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/75a25d47-44bc-464e-ade1-3dad59708189"
-      (reference "#PWR041") (unit 1) (value "+5V") (footprint "")
+    (path "/c8f07988-6923-43c1-86bc-6009e69a36e7"
+      (reference "#FLG04") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/a59bd763-2144-4f0b-809d-d637e0dfcdc4"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/44b5dc72-4ec6-4fb2-b842-6217e1e756c0"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2d99b1fd-4676-4d86-a373-e48d6eb5908c"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56f55bb6-4eed-416b-b118-9d46bea66843"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/2ce15560-87e2-4227-ac08-0adeae2f86f4"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e6216877-0c92-4f6b-a438-f930d20ba9ba"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/e53a1afb-1269-4ccc-9d39-72635457c7f7"
+      (reference "#PWR07") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/7b6a790a-b581-43b4-b3e8-b90411497bef"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f356a60e-7a8d-4e45-a402-0850260ff0ee"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/75a25d47-44bc-464e-ade1-3dad59708189"
+      (reference "#PWR010") (unit 1) (value "+5V") (footprint "")
     )
     (path "/cefa7dfe-2569-4624-baca-5c5512c57761"
       (reference "D1") (unit 1) (value "DIODE") (footprint "Keebio-Parts:D_SOD123")
@@ -8233,14 +8248,17 @@
     (path "/978b5aff-ce0d-4c9c-a9f7-3c3fa0a5a3a1"
       (reference "Pin2") (unit 1) (value "Conn_01x01") (footprint "Keebio-Parts:SinglePad")
     )
-    (path "/51436f05-58a2-480a-b19d-fa9db125d54d"
-      (reference "R1") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    (path "/097e0edc-0bee-47b5-b180-d68199aa4ff8"
+      (reference "R1") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
-    (path "/cea9d9a0-7c08-4ba2-9da7-a22fb48e0ba4"
+    (path "/51436f05-58a2-480a-b19d-fa9db125d54d"
       (reference "R2") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
+    (path "/cea9d9a0-7c08-4ba2-9da7-a22fb48e0ba4"
+      (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
     (path "/71fa3c88-abdf-4868-92dd-da7a96a3466b"
-      (reference "S2") (unit 1) (value "B3U-1000P") (footprint "digikey-footprints:Switch_Tactile_SMD_B3U-1000P")
+      (reference "S1") (unit 1) (value "B3U-1000P") (footprint "digikey-footprints:Switch_Tactile_SMD_B3U-1000P")
     )
     (path "/200aa83c-0260-4790-a345-ddeba1e13353"
       (reference "SW1") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
