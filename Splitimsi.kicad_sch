@@ -7770,10 +7770,10 @@
     (property "Reference" "S1" (id 0) (at 201.93 46.99 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "B3U-1000P" (id 1) (at 201.93 39.37 0)
-      (effects (font (size 1.524 1.524)))
+    (property "Value" "" (id 1) (at 201.93 39.37 0)
+      (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "digikey-footprints:Switch_Tactile_SMD_B3U-1000P" (id 2) (at 207.01 39.37 0)
+    (property "Footprint" "" (id 2) (at 207.01 39.37 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" (id 3) (at 207.01 36.83 0)
@@ -9187,7 +9187,7 @@
       (reference "R3") (unit 1) (value "4.7k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/71fa3c88-abdf-4868-92dd-da7a96a3466b"
-      (reference "S1") (unit 1) (value "B3U-1000P") (footprint "digikey-footprints:Switch_Tactile_SMD_B3U-1000P")
+      (reference "S1") (unit 1) (value "B3U-1000P") (footprint "Lily58:TACT_SWITCH_TVBP06")
     )
     (path "/200aa83c-0260-4790-a345-ddeba1e13353"
       (reference "SW1") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
