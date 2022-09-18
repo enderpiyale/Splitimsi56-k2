@@ -381,7 +381,6 @@
         "name": "PowerLines",
         "nets": [
           "+5V",
-          "/B+",
           "GND",
           "Net-(SW1-Pad2)"
         ],
