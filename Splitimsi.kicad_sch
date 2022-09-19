@@ -1076,7 +1076,6 @@
     )
   )
 
-
   (junction (at 101.6 71.12) (diameter 0) (color 0 0 0 0)
     (uuid 0327ccf1-a12e-4560-b94b-11ab1e808be8)
   )
@@ -2663,10 +2662,10 @@
     (property "Reference" "SW18" (id 0) (at 107.6775 67.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "MX_RGB" (id 1) (at 107.7276 67.3151 0)
+    (property "Value" "" (id 1) (at 107.7276 67.3151 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "KeyboardCustomFPs:Kailh_HS_MX_LED_option2" (id 2) (at 106.5571 64.655 0)
+    (property "Footprint" "" (id 2) (at 106.5571 64.655 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 108.9976 76.2051 0)
@@ -4933,7 +4932,7 @@
       (reference "SW17") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
     )
     (path "/26d58434-7bc0-4330-aacc-ebafc1af4dff"
-      (reference "SW18") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED_option2")
+      (reference "SW18") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED_option4")
     )
     (path "/0cb1d01e-f5f0-4c79-8ca3-b02247355dc9"
       (reference "SW19") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
