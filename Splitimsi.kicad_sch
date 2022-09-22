@@ -4542,11 +4542,11 @@
     (property "Reference" "SW5" (id 0) (at 93.7075 19.05 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "MX_RGB" (id 1) (at 93.7576 19.0551 0)
+    (property "Value" "" (id 1) (at 93.7576 19.0551 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "KeyboardCustomFPs:Kailh_HS_MX_LED_option3" (id 2) (at 92.5871 16.395 0)
-      (effects (font (size 1.524 1.524)) hide)
+    (property "Footprint" "" (id 2) (at 92.5871 16.395 0)
+      (effects (font (size 1.524 1.524)))
     )
     (property "Datasheet" "" (id 3) (at 95.0276 27.9451 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -4942,7 +4942,7 @@
       (reference "SW4") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
     )
     (path "/f5456641-1675-46a0-9e91-e293c5c54ce2"
-      (reference "SW5") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED_option3")
+      (reference "SW5") (unit 1) (value "MX_RGB") (footprint "KeyboardCustomFPs:Kailh_HS_MX_LED")
     )
     (path "/0675de24-b089-42c7-9361-261d22997119"
       (reference "SW6") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keebio-Parts:RotaryEncoder_EC11")
