@@ -31,3 +31,5 @@ fp-info-cache
 # Outputs
 *.step
 *.svg
+*.zip
+*.pos
